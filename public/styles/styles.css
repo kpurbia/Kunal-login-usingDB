@@ -1,0 +1,27 @@
+.nav{
+    position:fixed;
+    display: flexbox;
+    background-color: darkgray;
+    border: 2px solid black;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 3rem;
+}
+
+#floatLeft{
+    float: right;
+}
+
+.content{
+    position: absolute;
+    /* margin-top: 65px; */
+    left: 0;
+    top: 11%;
+    width: 100%;
+    border: 2px solid black;
+    padding: 15px;
+}
